@@ -1,0 +1,127 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Encode Sans", sans-serif;
+}
+
+body {
+  /* background-color: white; */
+  background:linear-gradient(to right, rgba(0, 153, 255, 0.801), rgba(93, 250, 255, 0.2), rgba(12, 16, 248, 0.678));
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 62%;
+}
+
+.box {
+  background-color: #a5bbdd;
+  position: relative;
+  height: 60vh;
+  width: 20vw;
+  min-height: 25rem;
+  min-width: 20rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5rem rgba(0, 0, 0, 0.2);
+  border: 1rem solid white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchfield {
+  margin: 0.5rem 1rem;
+  position: absolute;
+  top: 0;
+  /* border: 2px solid red; */
+}
+
+.searchfield .brand {
+  text-shadow: 0 0 0.1rem black;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.inputfield {
+  width: 70%;
+  margin: 1rem 2.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.inputfield:hover {
+  box-shadow: 0 0 1rem rgb(0, 140, 255);
+}
+
+.info {
+  margin: 0.5rem 1rem;
+  position: absolute;
+  bottom: 0;
+  /* border: 2px solid red; */
+}
+
+.desc {
+  text-align: center;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 3.5rem;
+  /* color: rgb(255, 174, 0); */
+}
+
+.desc h3 {
+  font-size: 1rem !important;
+}
+
+.location {
+  text-transform: capitalize;
+  font-size: 2rem;
+  /* color: rgb(0, 47, 255); */
+  text-align: center;
+  font-weight: bolder;
+}
+
+.date {
+  display: inline-block;
+  padding: 0 1rem 1rem 1rem;
+  font-size: 0.7rem;
+}
+
+.time {
+  display: inline-block;
+  padding: 0 1rem 1rem 1rem;
+  font-size: 0.7rem;
+}
+
+.temp {
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.temp-max-min{
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.humidity {
+  padding: 1rem 1rem 0rem 1rem;
+  font-size: 0.9rem;
+}
+
+.pressure {
+  padding: 0 1rem 0.3rem 1rem;
+  font-size: 0.9rem;
+}
+
+.invalid-data{
+  font-size: 1.5rem;
+  position: absolute;
+  top: 10rem;
+}
